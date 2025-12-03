@@ -27,10 +27,6 @@ INPUT_DIR = 'coadread_tcga/' # Coadread tcga data from cBioPortal
 OUTPUT_DIR = 'coadread_processed/'      
 NETWORK_FILE = 'data/BRCA_edge2features_2.txt' # NBSS-code/data in repo
 
-INPUT_DIR = '/Users/nicolesorensen/Dropbox/coadread_tcga/'
-OUTPUT_DIR = 'coadread_processed/'
-NETWORK_FILE = '/Users/nicolesorensen/02712-final-project/NBSS-code/data/BRCA_edge2features_2.txt'
-
 TRAIN_SPLIT = 0.67  # 67% training, 33% validation
 MIN_MUTATIONS = 4   # Minimum mutations per gene to keep
 
